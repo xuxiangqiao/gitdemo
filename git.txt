@@ -1,0 +1,34 @@
+初始化
+git init
+
+用户名、邮箱
+git config --global user.name '***'
+git config --global user.email '****@***'
+
+查看状态
+git status
+工作区-》暂存区
+git add  文件名
+暂存区-》分支
+git commit -m '备注'
+
+查看文件差异
+git diff
+
+查看日志
+git log
+
+查看所有日志
+git reflog
+
+回退上一个版本
+git reset --hard HEAD^
+回退指定版本
+git reset --hard 版本号
+从暂存区回退到工作区
+git rm --cached 文件名
+放弃修改，回退到上一个版本
+git restore <file>
+
+
+
